@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+
+    "name": "Site cleaner",
+    "description": "This extension cleans D3.ru, reddit.com for better redability",
+    "version": "1.0",
+
+    "permissions": [
+        "http://*.d3.ru/*",
+        "http://*.reddit.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [ "http://*.d3.ru/*" ],
+            "js": [ "d3.js" ]
+        },
+        {
+            "matches": [ "http://*.reddit.com/*" ],
+            "js": [ "reddit.js" ]
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+    "default_title": "d3 clean",
+    "default_icon": "icon.png"    
+}
+
+
+}
