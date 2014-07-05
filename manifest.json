@@ -7,7 +7,9 @@
 
     "permissions": [
         "http://*.d3.ru/*",
-        "http://*.reddit.com/*"
+        "http://*.reddit.com/*",
+        "http://*.habrahabr.ru/*"
+        
     ],
     "content_scripts": [
         {
@@ -17,7 +19,12 @@
         {
             "matches": [ "http://*.reddit.com/*" ],
             "js": [ "reddit.js" ]
+        },
+        {
+            "matches": [ "http://*.habrahabr.ru/*" ],
+            "js": [ "habra.js" ]
         }
+        
     ],
     "background": {
         "scripts": ["background.js"]

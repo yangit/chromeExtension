@@ -1,6 +1,6 @@
 var removeClass = function (className) {
     Array.prototype.forEach.call(document.getElementsByClassName(className), function (e) {
-        e.remove();
+        e.style.display = "none";
     });
 };
 
