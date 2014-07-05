@@ -1,6 +1,6 @@
 console.log("Hi habra");
 
-var removeClass = function (className) {
+var hideClass = function (className) {
     Array.prototype.forEach.call(document.getElementsByClassName(className), function (e) {
         e.style.display = "none";
     });
@@ -16,6 +16,6 @@ Array.prototype.forEach.call(document.getElementsByClassName("inner"), function 
     e.style.paddingLeft = "0";    
 });
 
-removeClass("sidebar_right");
+hideClass("sidebar_right");
 
 

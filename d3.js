@@ -1,12 +1,12 @@
-var removeClass = function (className) {
+var hideClass = function (className) {
     Array.prototype.forEach.call(document.getElementsByClassName(className), function (e) {
         e.style.display = "none";
     });
 };
 
-removeClass("l-content_aside");
-removeClass("b-sidebar");
-removeClass("b-user_ad_container");
+hideClass("l-content_aside");
+hideClass("b-sidebar");
+hideClass("b-user_ad_container");
 
 
 Array.prototype.forEach.call(document.getElementsByClassName("l-i-content_main"), function (e) {

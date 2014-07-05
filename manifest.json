@@ -8,8 +8,8 @@
     "permissions": [
         "http://*.d3.ru/*",
         "http://*.reddit.com/*",
-        "http://*.habrahabr.ru/*"
-        
+        "http://*.habrahabr.ru/*",
+        "http://rutracker.org/*"        
     ],
     "content_scripts": [
         {
@@ -19,6 +19,10 @@
         {
             "matches": [ "http://*.reddit.com/*" ],
             "js": [ "reddit.js" ]
+        },        
+        {
+            "matches": [ "http://rutracker.org/*" ],
+            "js": [ "rutracker.js" ]
         },
         {
             "matches": [ "http://*.habrahabr.ru/*" ],
