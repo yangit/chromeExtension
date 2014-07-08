@@ -1,0 +1,22 @@
+#adriver-240x120 {
+    display: none
+}
+
+#sidebar1 {
+    display: none
+}
+
+#nav-panel {
+    display: none
+}
+
+a[target="_blank"] {
+    display: none
+}
+
+iframe {
+    display: none
+}
+
+#forums_wrap {
+}

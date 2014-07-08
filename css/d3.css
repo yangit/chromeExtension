@@ -1,0 +1,27 @@
+.b-sidebar {
+    display: none
+}
+
+.l-content_aside {
+    display: none
+}
+
+.b-user_ad_container {
+    display: none
+}
+
+.l-i-content_main {
+    padding-left: 0 !important
+}
+
+.l-content_main {
+    margin-left: 0 !important
+}
+
+.l-i-wrapper {
+    background-image: url("")
+}
+
+#js-posts_holder {
+    padding-right: 0
+}

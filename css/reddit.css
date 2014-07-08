@@ -1,0 +1,12 @@
+.content {
+    margin-left: 0 !important;
+}
+
+.md {
+    max-width: 1000em !important;
+    margin-right: 1em;
+}
+
+.side {
+    display: none
+}

@@ -1,0 +1,14 @@
+.sidebar_right {
+    display: none
+}
+
+.inner {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.content-left {
+    margin-right: 0;
+    padding-right: 0;
+    width: 100%;
+}
