@@ -1,3 +1,6 @@
 ## Chrome extension.
 
-Basic proof of concept extesion to clean up some websites from advertising. 
+This extension:
+
+* blocks iframes
+* styles some websites for better redability 
