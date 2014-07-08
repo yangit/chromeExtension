@@ -6,10 +6,7 @@
     "version": "1.0",
 
     "permissions": [
-        "http://*.d3.ru/*",
-        "http://*.reddit.com/*",
-        "http://*.habrahabr.ru/*",
-        "http://rutracker.org/*"        
+        "webRequest", "webRequestBlocking", "*://*/*"
     ],
     "content_scripts": [
         {
@@ -19,7 +16,7 @@
         {
             "matches": [ "http://*.reddit.com/*" ],
             "js": [ "reddit.js" ]
-        },        
+        },
         {
             "matches": [ "http://rutracker.org/*" ],
             "js": [ "rutracker.js" ]
@@ -28,15 +25,15 @@
             "matches": [ "http://*.habrahabr.ru/*" ],
             "js": [ "habra.js" ]
         }
-        
+
     ],
     "background": {
         "scripts": ["background.js"]
     },
     "browser_action": {
-    "default_title": "d3 clean",
-    "default_icon": "icon.png"    
-}
+        "default_title": "d3 clean",
+        "default_icon": "icon.png"
+    }
 
 
 }
